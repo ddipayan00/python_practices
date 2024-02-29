@@ -1,8 +1,7 @@
-from code_collection_module import (collections_practices)
+from code_collection_module import (
+    context_manager_practices as ctp
+)
 
 if __name__ == "__main__":
-    obj = collections_practices.inital_collection_practices(val=10)
-    print(obj.getCounter())
-    obj.changeCount(10)
-    print(obj.getCounter())
-    collections_practices.myDebugFunction()
+    ctp.testRunner()
+    pass

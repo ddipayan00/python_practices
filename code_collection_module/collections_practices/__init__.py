@@ -1,11 +1,14 @@
-def myDebugFunction():
-    print(__file__)
-    print(__name__)
 
-class inital_collection_practices():
-    def __init__(self,val:int=0) -> None:
-        self.counter = val
-    def changeCount(self,value):
+class InitalCollectionPractices():
+
+    def __init__(self,value:int=0) -> None:
         self.counter = value
-    def getCounter(self):
+
+    def changeCount(self,value) -> None:
+        self.counter = value
+
+    def getCounter(self) -> int:
         return self.counter
+    
+    def myDebugFunction(self) -> None:
+        print(self.__module__)

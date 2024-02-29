@@ -16,3 +16,4 @@ from . import list_practices
 from . import python_lambda_practices
 from . import random_number_practices
 from . import tuple_practices
+from . import async_practices
